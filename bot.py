@@ -32,7 +32,7 @@ TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 # Create OpenRouter client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.environ["OPENAI_API_KEY"]
+    api_key=OPENROUTER_API_KEY
 )
 
 # ================== UTILS ==================
