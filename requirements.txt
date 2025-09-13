@@ -2,3 +2,4 @@ python-telegram-bot==20.7
 openai
 pytz
 requests
+python-dotenv==1.0.0
